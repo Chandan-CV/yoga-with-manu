@@ -4,6 +4,11 @@
 	import Included from "../components/Included.svelte";
 	import MainHero from "../components/MainHero.svelte";
     import MeetYourInstructor from "../components/MeetYourInstructor.svelte";
+    import Benefits from "../components/Benefits.svelte";
+	import Whofor from "../components/Whofor.svelte";
+	import Testimonials from "../components/Testimonials.svelte";
+	import Pricing from "../components/Pricing.svelte";
+	import Register from "../components/Register.svelte";
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -16,5 +21,15 @@
         <Included/>
         <div class="mt-32"/>
         <Curriculum/>
+        <div class="mt-32"/>
+        <Benefits/>
+        <div class="mt-32"/>
+        <Whofor/>
+        <div class="mt-32"/>
+        <Testimonials/>
+        <div class="mt-32"/>
+        <Pricing/>
+        <div class="mt-32"/>
+        <Register/>
     </div>
 </body>
