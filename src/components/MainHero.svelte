@@ -1,0 +1,29 @@
+<script>
+	import InfoBoxes from './InfoBoxes.svelte';
+	import RegisterButton from './RegisterButton.svelte';
+</script>
+
+<body>
+	<div class="bg-[#F5E3FF] p-20">
+		<div class="mb-32">
+			<div class="text-4xl text-dark-purple font-nunito leading-normal">
+				<p>3-MONTH</p>
+				<p>YOGA CHALLENGE</p>
+			</div>
+			<div>
+				<p class="text-lg text-dark-green font-nunito font-light">OFFLINE AND ONLINE</p>
+			</div>
+		</div>
+        <div>
+            <RegisterButton/>
+            <p class="text-lg text-dark-green font-nunito font-light mt-2">Register now and change your lifestyle forever</p>
+        </div>
+       <div class="flex flex-row flex-wrap w-full justify-evenly mt-32">
+        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
+        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
+        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
+        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
+        </div>
+
+	</div>
+</body>
