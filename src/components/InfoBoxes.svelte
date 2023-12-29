@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="flex flex-col p-5 rounded-md bg-white w-[210px] justify-center items-center m-5"
+	class="flex flex-col p-5 rounded-md bg-white w-[210px] justify-center items-center m-5 text-center"
 >
 	<Icon icon={img} class="text-dark-purple text-5xl" />
 	<p class="font-light text-dark-green">{subtext}</p>

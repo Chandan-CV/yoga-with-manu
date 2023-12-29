@@ -3,7 +3,7 @@
 import RegisterButton from "./RegisterButton.svelte";
 
 </script>
-<header class="text-gray-600 body-font sticky top-0 bg-white">
+<header class="text-gray-600 body-font sticky top-0 bg-white shadow-md">
 	<div
 		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between"
 	>

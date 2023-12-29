@@ -20,9 +20,9 @@
         </div>
        <div class="flex flex-row flex-wrap w-full justify-evenly mt-32">
         <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
-        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
-        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
-        <InfoBoxes img="mdi:calendar" subtext ="Start date" text="Jan 25, 2024"/>
+        <InfoBoxes img="mdi-light:clock" subtext ="Timing" text="Morning and Eventing"/>
+        <InfoBoxes img="mdi:map" subtext ="Location" text="RMV, Bangalore"/>
+        <InfoBoxes img="simple-icons:levelsdotfyi" subtext ="Level" text="Beginners and advanced"/>
         </div>
 
 	</div>
