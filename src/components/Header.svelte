@@ -1,9 +1,8 @@
 <script>
-	import InfoBoxes from "./InfoBoxes.svelte";
 import RegisterButton from "./RegisterButton.svelte";
 
 </script>
-<header class="text-gray-600 body-font sticky top-0 bg-white shadow-md">
+<header class="text-gray-600 body-font sticky top-0 bg-white shadow-md z-40">
 	<div
 		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between"
 	>

@@ -9,6 +9,7 @@
 	import Testimonials from "../components/Testimonials.svelte";
 	import Pricing from "../components/Pricing.svelte";
 	import Register from "../components/Register.svelte";
+	import Footer from "../components/Footer.svelte";
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -31,5 +32,7 @@
         <Pricing/>
         <div class="mt-32"/>
         <Register/>
+        <div class="mt-32"/>
+        <Footer/>
     </div>
 </body>
