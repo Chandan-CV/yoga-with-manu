@@ -44,7 +44,7 @@
 	class="inline-flex items-center bg-dark-purple border-0 py-2 px-4 shadow-lg focus:outline-none hover:bg-light-purple rounded-md text-white text-xl mt-4 md:mt-0 justify-center"
 	on:click={() => {
 		if (!isRegister) {
-			alert('Register clicked');
+			window.location.href = '#register';
 		} else {
 			if (!TermsAgreed) {
 				alert('Please agree to the terms and conditions');
