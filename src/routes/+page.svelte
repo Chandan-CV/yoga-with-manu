@@ -11,6 +11,7 @@
 	import Register from "../components/Register.svelte";
 	import Footer from "../components/Footer.svelte";
 	import Gallery from "../components/Gallery.svelte";
+	import PreviousClients from "../components/PreviousClients.svelte";
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -19,6 +20,8 @@
     <div class="flex flex-col justify-center items-center">
         <div class="mt-32"/>
         <MeetYourInstructor/>
+        <div class="mt-32"/>
+        <PreviousClients/>
         <div class="mt-32"/>
         <Included/>
         <div class="mt-32"/>

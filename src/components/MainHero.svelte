@@ -40,7 +40,8 @@
 			<InfoBoxes img="mdi:calendar" subtext="Start date" text="Jan 25, 2024"  />
 			<InfoBoxes img="mdi-light:clock" subtext="Timing" text="Morning and Eventing" />
 			<InfoBoxes img="mdi:map" subtext="Location" text="RMV, Bangalore" />
-			<InfoBoxes img="simple-icons:levelsdotfyi" subtext="Level" text="Beginners and advanced" />
+			<InfoBoxes img="simple-icons:levelsdotfyi" subtext="Level" text="Beginners and advanced" />	
+			<InfoBoxes img="solar:ticket-sale-linear" subtext="" text="Free first class" />
 		</div>
 	</div>
 </body>
