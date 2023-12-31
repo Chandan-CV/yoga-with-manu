@@ -8,7 +8,7 @@
 		<div class="flex flex-col sm:flex-row w-full justify-between items-center">
 			<div class="mb-20">
 				<div class="mb-32">
-					<div class="text-4xl text-dark-purple font-nunito leading-normal">
+					<div class="text-4xl sm:text-6xl text-dark-purple font-nunito leading-normal">
 						<p>3-MONTH</p>
 						<p>YOGA CHALLENGE</p>
 					</div>

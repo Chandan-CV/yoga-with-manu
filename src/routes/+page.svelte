@@ -12,6 +12,7 @@
 	import Footer from "../components/Footer.svelte";
 	import Gallery from "../components/Gallery.svelte";
 	import PreviousClients from "../components/PreviousClients.svelte";
+	import Faq from "../components/FAQ.svelte";
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -38,6 +39,8 @@
         <Register/>
         <div class="mt-32"/>
         <Gallery/>
+        <div class="mt-32"/>
+        <Faq/>
         <div class="mt-32"/>
         <Footer/>
     </div>
