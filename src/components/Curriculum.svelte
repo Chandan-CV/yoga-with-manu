@@ -9,30 +9,30 @@
 <div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20 shadow-lg">
 	<p class="text-dark-purple font-semibold text-3xl font-nunito mb-20">Curriculum</p>
 	<div class="flex flex-row w-full justify-evenly text-2xl font-nunito text-dark-purple">
-		<p
-			class="cursor-pointer"
+		<div
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
 			on:click={() => {
 				month = 1;
 			}}
 		>
 			Month 1
-		</p>
-		<p
-			class="cursor-pointer"
+		</div>
+		<div
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
 			on:click={() => {
 				month = 2;
 			}}
 		>
 			Month 2
-		</p>
-		<p
-			class="cursor-pointer"
+		</div>
+		<div
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
 			on:click={() => {
 				month = 3;
 			}}
 		>
 			Month 3
-		</p>
+		</div>
 	</div>
 
 	<div class="mt-10">
