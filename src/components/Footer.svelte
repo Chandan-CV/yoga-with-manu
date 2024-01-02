@@ -43,7 +43,7 @@
 		</a>
 	</div>
 	<div class="w-full flex flex-col justify-center items-center">
-		<p class="font-nunito text-3xl mt-7">Yoga with Manu</p>
+		<a class="font-nunito text-3xl mt-7" href="https://www.yogawithmanu.in/">Yoga with Manu</a>
 		<p class="text-sm">© 2021 Yoga with Manu. All rights reserved.</p>
 	</div>
 </div>

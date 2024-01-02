@@ -24,7 +24,7 @@
 				</svg>
 				<blockquote>
 					<p class="text-2xl italic font-medium text-dark-purple">
-						"An Ounce of practice is worth 1000 tonne of talk"
+						"One ounce of practice is worth a thousand pounds of theory."
 					</p>
 				</blockquote>
 				<figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
@@ -43,7 +43,7 @@
 				Register now!
 			</h2>
 			<div class="relative mb-4">
-				<label for="full-name" class="leading-7 text-sm text-gray-600">Full Name*</label>
+				<label for="full-name" class="leading-7  text-gray-600 ">Full Name*</label>
 				<input
 					type="text"
 					id="full-name"
@@ -53,7 +53,7 @@
 				/>
 			</div>
 			<div class="relative mb-4">
-				<label for="full-name" class="leading-7 text-sm text-gray-600">Whatsapp Number*</label>
+				<label for="full-name" class="leading-7  text-gray-600">Whatsapp Number*</label>
 				<input
 					type="text"
 					id="whatsapp-number"
@@ -63,7 +63,7 @@
 				/>
 			</div>
 			<div class="relative mb-4">
-				<label for="email" class="leading-7 text-sm text-gray-600">Email*</label>
+				<label for="email" class="leading-7  text-gray-600">Email*</label>
 				<input
 					type="email"
 					id="email"
@@ -95,7 +95,7 @@
 				Name={name}
 				WhatsappNumber={whatsappNumber}
 			/>
-			<p class="text-xs text-gray-500 mt-3">Register now and change your lifestyle forever!</p>
+			<p class="text-s text-gray-500 mt-3">Yoga for body, mind & spirit</p>
 		</div>
 	</div>
 </section>

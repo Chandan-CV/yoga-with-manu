@@ -23,7 +23,7 @@
 		</div>
         <div class="flex flex-col justify-center items-center w-[200px] m-5">
 			<Icon icon="solar:meditation-round-outline" class="text-dark-purple text-9xl" />
-			<p class="font-nunito text-dark-green text-xl">Spirituality seekers</p>
+			<p class="font-nunito text-dark-green text-xl">Spiritual seekers</p>
 		</div>
         <div class="flex flex-col justify-center items-center w-[200px] m-5">
 			<Icon icon="material-symbols-light:personal-injury-outline" class="text-dark-purple text-9xl" />

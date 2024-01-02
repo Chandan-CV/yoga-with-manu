@@ -8,27 +8,27 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20">
+<div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20 shadow-lg">
 	<p class="text-dark-purple font-semibold text-3xl font-nunito mb-20">
-		What's included in the course?
+		What's Included in the Yoga Challenge?
 	</p>
 	<div class="flex flex-row w-full justify-evenly flex-wrap items-center">
 		<div class="max-w-48 m-5">
-			<img src={Lectures} class="shadow-lg" />
-			<p class="text-dark-purple font-bold text-xl font-nunito ">60-min lectures</p>
+			<img src={Lectures} class="shadow-lg mb-2" />
+			<p class="text-dark-purple font-bold text-xl font-nunito ">60-min Yoga sessions</p>
 		</div>
 		<div class="max-w-48 m-5">
-			<img src={Education} class="shadow-lg" />
-			<p class="text-dark-purple font-bold text-xl font-nunito ">Yogic tips</p>
+			<img src={Education} class="shadow-lg mb-2" />
+			<p class="text-dark-purple font-bold text-xl font-nunito ">Yogic lifestyle tipstips</p>
 		</div>
 		<div class="max-w-48 m-5">
-			<img src={Nutrition} class="shadow-lg" />
+			<img src={Nutrition} class="shadow-lg mb-2" />
 			<p class="text-dark-purple font-bold text-xl font-nunito ">Diet plan and nutrition</p>
 		</div>
 		<div class="max-w-48 m-5">
-			<img src={Recorded} class="shadow-lg" />
+			<img src={Recorded} class="shadow-lg mb-2" />
 			<p class="text-dark-purple font-bold text-xl font-nunito ">
-				Recorded videos of every session
+				Recorded videos
 			</p>
 		</div>
 	</div>

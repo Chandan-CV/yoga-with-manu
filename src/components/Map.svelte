@@ -7,7 +7,6 @@
 	allowfullscreen={true}
 	loading="lazy"
 	referrerpolicy="no-referrer-when-downgrade"
-    class="w-full h-96
-    "
+    class="w-1/2 h-96"
     ></iframe>
 </div>

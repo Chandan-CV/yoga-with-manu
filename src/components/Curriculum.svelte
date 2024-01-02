@@ -2,11 +2,13 @@
 	import month1 from '../lib/images/curriculum/month1.png';
 	import month2 from '../lib/images/curriculum/month2.png';
 	import month3 from '../lib/images/curriculum/month3.png';
-
+	let ref;
 	let month: number = 1;
 </script>
 
-<div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20 shadow-lg">
+<div
+	class="w-5/6 flex flex-col items-center p-5 sm:p-10 bg-white rounded-lg text-center mb-20 shadow-lg"
+>
 	<p class="text-dark-purple font-semibold text-3xl font-nunito mb-20">Curriculum</p>
 	<div class="flex flex-row w-full justify-evenly text-2xl font-nunito text-dark-purple">
 		<div

@@ -13,22 +13,22 @@
 </script>
 
 <div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20 shadow-lg">
-	<p class="text-dark-purple font-semibold text-3xl font-nunito mb-20">
-		Clients we have worked with
+	<p class="text-dark-purple font-semibold text-4xl font-nunito mb-20">
+		Our Clients
 	</p>
 	<div>
 		<div class="flex flex-row justify-center items-center flex-wrap">
+			<img src={BharatiyaVidyaBhavan} class=" w-[150px] m-5" />
+			<img src={SBI} class="w-[150px] m-5" />
 			<img src={Ayushtv} class="w-[150px] m-5" />
 			<img src={BAPS} class="w-[150px] m-5" />
-			<img src={BharatiyaVidyaBhavan} class=" w-[150px] m-5" />
-			<img src={GAIL} class="w-[150px] m-5" />
-			<img src={Iskon} class="w-[150px] m-5" />
-			<img src={MannHummel} class="w-[150px] m-5" />
-			<img src={Mothers2mothers} class="w-[150px] m-5" />
-			<img src={nexteer} class="w-[150px] m-5" />
-			<img src={SBI} class="w-[150px] m-5" />
 			<img src={UNDP} class="w-[150px] m-5" />
 			<img src={WorldBank} class="w-[150px] m-5" />
+			<img src={Mothers2mothers} class="w-[150px] m-5" />
+			<img src={GAIL} class="w-[150px] m-5" />
+			<img src={MannHummel} class="w-[150px] m-5" />
+			<img src={nexteer} class="w-[150px] m-5" />
+			<img src={Iskon} class="w-[150px] m-5" />
 		</div>
 	</div>
 </div>
