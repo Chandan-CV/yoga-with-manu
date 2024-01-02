@@ -37,9 +37,11 @@
 			</div>
 		</div>
 		<div class="flex flex-row flex-wrap w-full justify-evenly mt-32">
-			<InfoBoxes img="mdi:calendar" subtext="Start date" text="Jan 25, 2024"  />
-			<InfoBoxes img="mdi-light:clock" subtext="Timing" text="Morning and Eventing" />
-			<InfoBoxes img="mdi:map" subtext="Location" text="RMV, Bangalore" />
+			<InfoBoxes img="mdi:calendar" subtext="Start date" text="Feb 1, 2024"  />
+			<InfoBoxes img="mdi-light:clock" subtext="Timing" text="Morning and evening" />
+			<a href="https://maps.app.goo.gl/mPDzRPD7uYqpxYux9">
+				<InfoBoxes img="mdi:map" subtext="Location" text="RMV, Bangalore" />
+			</a>
 			<InfoBoxes img="simple-icons:levelsdotfyi" subtext="Level" text="Beginners and advanced" />	
 			<InfoBoxes img="solar:ticket-sale-linear" subtext="" text="Free first class" />
 		</div>

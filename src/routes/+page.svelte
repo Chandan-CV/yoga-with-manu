@@ -13,6 +13,7 @@
 	import Gallery from "../components/Gallery.svelte";
 	import PreviousClients from "../components/PreviousClients.svelte";
 	import Faq from "../components/FAQ.svelte";
+	import Map from "../components/Map.svelte";
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -41,6 +42,8 @@
         <Gallery/>
         <div class="mt-32"/>
         <Faq/>
+        <div class="mt-32"/>
+        <Map/>
         <div class="mt-32"/>
         <Footer/>
     </div>
