@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/analytics": "^1.1.1",
 		"pocketbase": "^0.20.1",
 		"svelte-youtube-embed": "^0.2.1"
 	}
