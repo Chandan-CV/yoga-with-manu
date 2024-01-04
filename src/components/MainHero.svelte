@@ -42,7 +42,7 @@
 			<InfoBoxes img="solar:ticket-sale-linear" subtext="" text="Free Trial Class" />
 			<InfoBoxes img="mdi:calendar" subtext="Start date" text="Feb 5, 2024" />
 			<InfoBoxes img="mdi-light:clock" subtext="Timing" text="Morning and Evening" />
-			<a href="https://maps.app.goo.gl/mPDzRPD7uYqpxYux9">
+			<a href="https://maps.app.goo.gl/uQfV2JJvokHT2cdA6">
 				<InfoBoxes img="bx:map" subtext="Location" text="RMV, Bangalore" />
 			</a>
 			<InfoBoxes img="simple-icons:levelsdotfyi" subtext="Level" text="Beginners and Advanced" />

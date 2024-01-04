@@ -14,6 +14,7 @@
 	<div class="flex flex-row flex-wrap justify-center items-center">
 		
 		<iframe
+		class="m-5 rounded-2xl"
 			width="320"
 			height="560"
 			src="https://www.youtube.com/embed/MGuCbuvmODk"

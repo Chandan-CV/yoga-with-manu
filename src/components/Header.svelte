@@ -11,15 +11,15 @@ import RegisterButton from "./RegisterButton.svelte";
 			<p class="text-lg font-normal text-center m-2 text-dark-purple">3-Months Yoga Challenge</p>
 		</a>
 		<nav class="md:ml-auto hidden flex-wrap items-center justify-center text-lg sm:flex">
-			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#MeetYourInstructor">Mentor</a>
+			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#MeetYourInstructor">Teacher</a>
 			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#curriculum">Curriculum</a>
 			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#benefits">Benefits</a>
-			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#testimonials">Testimonials</a>
 			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#clients">Our Clients</a>
+			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#testimonials">Testimonials</a>
 			<a class="mr-5 hover:text-gray-900 cursor-pointer" href="#faq">FAQ</a>
 		  </nav>
 		  <div class="sm:mr-8">
-			  <RegisterButton pb={null}/>
+			  <RegisterButton/>
 			</div>
 	</div>
 </header>

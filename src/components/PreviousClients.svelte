@@ -21,13 +21,12 @@
 	</p>
 	<div>
 		<div class="flex flex-row justify-center items-center flex-wrap">
-			<img src={BharatiyaVidyaBhavan} class=" w-[150px] m-5" />
 			<img src={SBI} class="w-[150px] m-5" />
 			<img src={GAIL} class="w-[150px] m-5" />
 			<img src={MannHummel} class="w-[150px] m-5" />
 			<img src={nexteer} class="w-[150px] m-5" />
 			<img src={Ayushtv} class="w-[150px] m-5" />
-			<img src={BAPS} class="w-[150px] m-5" />
+			
 			<img src={UNDP} class="w-[150px] m-5" />
 			<img src={WorldBank} class="w-[150px] m-5" />
 			<img src={Mothers2mothers} class="w-[150px] m-5" />
