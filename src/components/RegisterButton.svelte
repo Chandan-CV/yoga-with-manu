@@ -23,7 +23,7 @@
     };
     const record = await pb.collection('registrations').create(data);
 	console.log(record);
-
+	window.location.href = 'https://chat.whatsapp.com/HyWgxcxQ8F32fEZ4ny9Xqo';
 	}
 </script>
 
