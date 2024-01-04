@@ -39,10 +39,10 @@
 		<Pricing />
 		<div class="mt-32" id="register" />
 		<Register  />
-		<div class="mt-32" id="gallery" />
-		<Gallery />
 		<div class="mt-32" id="faq" />
 		<Faq />
+		<div class="mt-32" id="gallery" />
+		<Gallery />
 		<div class="mt-32" id="map" />
 		<Map />
 		<div class="mt-32" id="footer" />

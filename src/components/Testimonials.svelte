@@ -12,18 +12,16 @@
 		allowfullscreen
 	></iframe>
 	<div class="flex flex-row flex-wrap justify-center items-center">
+		
 		<iframe
-		class=" m-5 rounded-2xl"
 			width="320"
 			height="560"
-			src="https://www.youtube.com/embed/Q3H2T0crqfM"
-			title="Testimonial - Blood Pressure &amp; Sugar level down after Yoga in 4 months. @manuchidananda4473"
+			src="https://www.youtube.com/embed/MGuCbuvmODk"
+			title="77 year old recovers from stroke &amp; BP"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			allowfullscreen
 		></iframe>
-
-
 		<script async src="//www.instagram.com/embed.js"></script>
 		<blockquote
 			class="instagram-media"

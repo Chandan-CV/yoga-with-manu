@@ -113,7 +113,7 @@
 						>POPULAR</span
 					>
 					<h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-						SPECIAL OFFER IF PAID IN ADVANCED (OFFLINE)
+						SPECIAL OFFER IF PAID IN ADVANCE (OFFLINE)
 					</h2>
 					<h1
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
@@ -330,7 +330,7 @@
 					class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
 				>
 					<h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-						SPECIAL OFFER IF PAID IN ADVANCED (ONLINE)
+						SPECIAL OFFER IF PAID IN ADVANCE (ONLINE)
 					</h2>
 					<h1
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"

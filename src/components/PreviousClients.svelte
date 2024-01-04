@@ -10,6 +10,9 @@
 	import SBI from '../lib/images/clients/SBI.png';
 	import UNDP from '../lib/images/clients/UNDP.png';
 	import WorldBank from '../lib/images/clients/WorldBank.png';
+	import MillU from '../lib/images/clients/MillU.jpeg';
+	import LilM from '../lib/images/clients/LilM.jpeg';
+
 </script>
 
 <div class="w-5/6 flex flex-col items-center p-10 bg-white rounded-lg text-center mb-20 shadow-lg">
@@ -20,15 +23,18 @@
 		<div class="flex flex-row justify-center items-center flex-wrap">
 			<img src={BharatiyaVidyaBhavan} class=" w-[150px] m-5" />
 			<img src={SBI} class="w-[150px] m-5" />
+			<img src={GAIL} class="w-[150px] m-5" />
+			<img src={MannHummel} class="w-[150px] m-5" />
+			<img src={nexteer} class="w-[150px] m-5" />
 			<img src={Ayushtv} class="w-[150px] m-5" />
 			<img src={BAPS} class="w-[150px] m-5" />
 			<img src={UNDP} class="w-[150px] m-5" />
 			<img src={WorldBank} class="w-[150px] m-5" />
 			<img src={Mothers2mothers} class="w-[150px] m-5" />
-			<img src={GAIL} class="w-[150px] m-5" />
-			<img src={MannHummel} class="w-[150px] m-5" />
-			<img src={nexteer} class="w-[150px] m-5" />
+			<img src={MillU} class="w-[150px] m-5" />
+			<img src={LilM} class="w-[150px] m-5" />
 			<img src={Iskon} class="w-[150px] m-5" />
+			
 		</div>
 	</div>
 </div>
