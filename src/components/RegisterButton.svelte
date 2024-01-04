@@ -1,5 +1,8 @@
 <script>
-	export let pb;
+// @ts-nocheck
+
+	import { parse } from 'svelte/compiler';
+	import { pb, uploadData } from '../pocketbase';
 	export let isRegister = false;
 	export let TermsAgreed = false;
 	export let Name = '';
@@ -12,17 +15,16 @@
 				/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 			);
 	};
-	const submit = async (pb) => {
+	const submit = async()=>{
 		const data = {
-			name: Name,
-			email: Email,
-			phone: parseInt(WhatsappNumber)
-		};
+        "name": Name,
+        "email": Email,
+        "phone": WhatsappNumber
+    };
+    const record = await pb.collection('registrations').create(data);
+	console.log(record);
 
-		const record = await pb.collection('registrations').create(data);
-		alert(record);
-		console.log(record);
-	};
+	}
 </script>
 
 <button
@@ -40,8 +42,8 @@
 			} else if (WhatsappNumber.length != 10) {
 				alert('Please enter a valid whatsapp number');
 			} else {
-				submit(pb);
-				window.location.href = 'https://chat.whatsapp.com/HyWgxcxQ8F32fEZ4ny9Xqo';
+				submit();
+				// window.location.href = 'https://chat.whatsapp.com/HyWgxcxQ8F32fEZ4ny9Xqo';
 			}
 		}
 	}}

@@ -15,9 +15,6 @@
 	import Faq from '../components/FAQ.svelte';
 	import Map from '../components/Map.svelte';
 
-	import PocketBase from 'pocketbase';
-
-	const pb = new PocketBase('https://yogawithmanu.pockethost.io');
 </script>
 
 <body class="bg-[#FCF6FF]">
@@ -41,7 +38,7 @@
 		<div class="mt-32" id="pricing" />
 		<Pricing />
 		<div class="mt-32" id="register" />
-		<Register  pb={pb} />
+		<Register  />
 		<div class="mt-32" id="gallery" />
 		<Gallery />
 		<div class="mt-32" id="faq" />
