@@ -1,4 +1,5 @@
 <script>
+	export let pb;
 	export let isRegister = false;
 	export let TermsAgreed = false;
 	export let Name = '';
@@ -11,32 +12,16 @@
 				/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 			);
 	};
-	const submitDataToGoogleSheet = async (
-		/** @type {string} */ email,
-		/** @type {string} */ name,
-		/** @type {string} */ whatsappNumber
-	) => {
-		const url =
-			'https://script.google.com/macros/s/AKfycbxDliO-OCvYOkMPzm5BPVPAQ3Ujp-Jed8Udv4rcpN-5rlMUJtsh0oh_ZbbwaNTp_x28Ug/exec';
+	const submit = async (pb) => {
 		const data = {
-			email,
-			name,
-			whatsappNumber
+			name: Name,
+			email: Email,
+			phone: parseInt(WhatsappNumber)
 		};
-		const response = await fetch(url, {
-			method: 'POST',
-			mode: 'no-cors',
-			cache: 'no-cache',
-			credentials: 'omit',
-			headers: {
-				'Content-Type': 'application/json'
-			},
-			redirect: 'follow',
-			referrerPolicy: 'no-referrer',
-			body: JSON.stringify(data)
-		});
-		console.log(response);
-		alert(response.body);
+
+		const record = await pb.collection('registrations').create(data);
+		alert(record);
+		console.log(record);
 	};
 </script>
 
@@ -55,6 +40,7 @@
 			} else if (WhatsappNumber.length != 10) {
 				alert('Please enter a valid whatsapp number');
 			} else {
+				submit(pb);
 				window.location.href = 'https://chat.whatsapp.com/HyWgxcxQ8F32fEZ4ny9Xqo';
 			}
 		}

@@ -12,7 +12,7 @@
 	<p class="text-dark-purple font-semibold text-3xl font-nunito mb-20">Curriculum</p>
 	<div class="flex flex-row w-full justify-evenly text-2xl font-nunito text-dark-purple">
 		<div
-			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl hover:bg-dark-purple hover:text-white"
 			on:click={() => {
 				month = 1;
 			}}
@@ -20,7 +20,7 @@
 			Month 1
 		</div>
 		<div
-			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl hover:bg-dark-purple hover:text-white"
 			on:click={() => {
 				month = 2;
 			}}
@@ -28,7 +28,7 @@
 			Month 2
 		</div>
 		<div
-			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl"
+			class="cursor-pointer p-2 border-2 border-dark-purple rounded-md bg-ultra-light-purple font-semibold text-sm sm:text-2xl hover:bg-dark-purple hover:text-white"
 			on:click={() => {
 				month = 3;
 			}}

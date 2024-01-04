@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
+	import PocketBase from 'pocketbase';
 	import RegisterButton from './RegisterButton.svelte';
 	let TermsAgreed = false;
 	let email = '';
 	let name = '';
 	let whatsappNumber = '';
-
+	export let pb:PocketBase;
 </script>
 
 <section class="text-gray-600 body-font w-full" id="register">
@@ -88,14 +89,15 @@
 					></label
 				>
 			</div>
+			<p class="text-lg font-medium text-gray-500 mt-3 mb-2">Free Trial Class!</p>
 			<RegisterButton
+				pb={pb}
 				isRegister
 				{TermsAgreed}
 				Email={email}
 				Name={name}
 				WhatsappNumber={whatsappNumber}
 			/>
-			<p class="text-s text-gray-500 mt-3">Yoga for body, mind & spirit</p>
 		</div>
 	</div>
 </section>

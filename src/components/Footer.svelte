@@ -12,39 +12,30 @@
 		</a>
 
 		<a href="https://www.facebook.com/yogawithmanu">
-			<Icon
-				icon="mdi:facebook"
-				class="text-white text-3xl cursor-pointer"
-							/>
+			<Icon icon="mdi:facebook" class="text-white text-3xl cursor-pointer" />
 		</a>
 
 		<a href="https://www.youtube.com/channel/UCcvJ7BsaDleU0wQQ3sxCAwA">
-			<Icon
-				icon="mdi:youtube"
-				class="text-white text-3xl cursor-pointer"
-				
-			/>
+			<Icon icon="mdi:youtube" class="text-white text-3xl cursor-pointer" />
 		</a>
 
 		<a href="https://twitter.com/yogawithmanu">
-			<Icon
-				icon="simple-icons:x"
-				class="text-white text-3xl cursor-pointer"
-				
-			/>
+			<Icon icon="simple-icons:x" class="text-white text-3xl cursor-pointer" />
 		</a>
 
 		<a href="https://www.linkedin.com/in/manu-chidananda-10182a43/">
-			<Icon
-				icon="mdi:linkedin"
-				class="text-white text-3xl cursor-pointer"
-				
-			/>
+			<Icon icon="mdi:linkedin" class="text-white text-3xl cursor-pointer" />
 		</a>
 	</div>
 	<div class="w-full flex flex-col justify-center items-center">
 		<a class="font-nunito text-3xl mt-7" href="https://www.yogawithmanu.in/">Yoga with Manu</a>
+		<!-- adding the privacy policy as well -->
 		<p class="text-sm">© 2021 Yoga with Manu. All rights reserved.</p>
+		<p class="text-sm">
+			<a href="https://www.freeprivacypolicy.com/live/bef8add4-5d85-4e37-a450-1ee17ef2feae"
+				>Privacy Policy</a
+			>
+		</p>
 	</div>
 </div>
 <div class="w-full flex flex-row justify-center bottom-0">

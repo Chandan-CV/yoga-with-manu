@@ -15,7 +15,7 @@
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
 					>
 						<span>3000</span>
-						<span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+						<span class="text-lg ml-1 font-normal text-gray-500">/month</span>
 					</h1>
 					<p class="flex items-center text-gray-600 mb-2">
 						<span
@@ -49,7 +49,7 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>12 Courses
+						</span>12 Sessions
 					</p>
 					<p class="flex items-center text-gray-600 mb-2">
 						<span
@@ -100,7 +100,7 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>Recorded lectures
+						</span>Recorded Sessions
 					</p>
 				</div>
 			</div>
@@ -113,15 +113,15 @@
 						>POPULAR</span
 					>
 					<h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-						SPECIAL OFFER IF PAID IN ADVANCED
+						SPECIAL OFFER IF PAID IN ADVANCED (OFFLINE)
 					</h2>
 					<h1
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
 					>
 						<span>2500</span>
-						<span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+						<span class="text-lg ml-1 font-normal text-gray-500">/month</span>
 					</h1>
-                    <p class="flex items-center text-gray-600 mb-2">
+					<p class="flex items-center text-gray-600 mb-2">
 						<span
 							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
 						>
@@ -136,9 +136,9 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>3 months of offline classes
+						</span>3 months of offline classes (36 Sessions)
 					</p>
-                    <p class="flex items-center text-gray-600 mb-2">
+					<p class="flex items-center text-gray-600 mb-2 text-lg">
 						<span
 							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
 						>
@@ -172,6 +172,7 @@
 							</svg>
 						</span>Free trial class
 					</p>
+
 					<p class="flex items-center text-gray-600 mb-2">
 						<span
 							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
@@ -221,7 +222,7 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>Recorded lectures
+						</span>Recorded Sessions
 					</p>
 				</div>
 			</div>
@@ -234,9 +235,9 @@
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
 					>
 						<span>2500</span>
-						<span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+						<span class="text-lg ml-1 font-normal text-gray-500">/month</span>
 					</h1>
-					
+
 					<p class="flex items-center text-gray-600 mb-2">
 						<span
 							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
@@ -269,6 +270,23 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
+						</span>12 Sessions
+					</p>
+					<p class="flex items-center text-gray-600 mb-2">
+						<span
+							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+						>
+							<svg
+								fill="none"
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2.5"
+								class="w-3 h-3"
+								viewBox="0 0 24 24"
+							>
+								<path d="M20 6L9 17l-5-5"></path>
+							</svg>
 						</span>60 min yoga sessions
 					</p>
 					<p class="flex items-center text-gray-600 mb-2">
@@ -303,7 +321,7 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>Recorded lectures
+						</span>Recorded Sessions
 					</p>
 				</div>
 			</div>
@@ -312,13 +330,13 @@
 					class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
 				>
 					<h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-						ONLINE CLASSES PAID IN ADVANCED
+						SPECIAL OFFER IF PAID IN ADVANCED (ONLINE)
 					</h2>
 					<h1
 						class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
 					>
 						<span>2000</span>
-						<span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+						<span class="text-lg ml-1 font-normal text-gray-500">/month</span>
 					</h1>
 					<p class="flex items-center text-gray-600 mb-2">
 						<span
@@ -335,9 +353,9 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>Special offer if 3 months paid in Advanced
+						</span>3 months of online classes (36 Sessions)
 					</p>
-                    <p class="flex items-center text-gray-600 mb-2">
+					<p class="flex items-center text-gray-600 mb-2 text-lg">
 						<span
 							class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
 						>
@@ -420,7 +438,7 @@
 							>
 								<path d="M20 6L9 17l-5-5"></path>
 							</svg>
-						</span>Recorded lectures
+						</span>Recorded Sessions
 					</p>
 				</div>
 			</div>
