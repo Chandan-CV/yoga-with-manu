@@ -1,10 +1,10 @@
 <script lang="ts">
+	import Icon from '@iconify/svelte';
 	import RegisterButton from './RegisterButton.svelte';
 	let TermsAgreed = false;
 	let email = '';
 	let name = '';
 	let whatsappNumber = '';
-	
 </script>
 
 <section class="text-gray-600 body-font w-full" id="register">
@@ -43,7 +43,7 @@
 				Register now!
 			</h2>
 			<div class="relative mb-4">
-				<label for="full-name" class="leading-7  text-gray-600 ">Full Name*</label>
+				<label for="full-name" class="leading-7 text-gray-600">Full Name*</label>
 				<input
 					type="text"
 					id="full-name"
@@ -53,7 +53,7 @@
 				/>
 			</div>
 			<div class="relative mb-4">
-				<label for="full-name" class="leading-7  text-gray-600">Whatsapp Number*</label>
+				<label for="full-name" class="leading-7 text-gray-600">Whatsapp Number*</label>
 				<input
 					type="text"
 					id="whatsapp-number"
@@ -61,9 +61,17 @@
 					class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
 					bind:value={whatsappNumber}
 				/>
+				<p class="mb-2 font-nunito text-lg">
+					Get updates through
+					<strong>
+
+						<Icon icon="logos:whatsapp-icon" class="w-5 h-5 inline-block" />
+						Whatsapp
+					</strong>
+				</p>
 			</div>
 			<div class="relative mb-4">
-				<label for="email" class="leading-7  text-gray-600">Email*</label>
+				<label for="email" class="leading-7 text-gray-600">Email*</label>
 				<input
 					type="email"
 					id="email"
@@ -90,7 +98,6 @@
 			</div>
 			<p class="text-lg font-medium text-gray-500 mt-3 mb-2">Free Trial Class!</p>
 			<RegisterButton
-				
 				isRegister
 				{TermsAgreed}
 				Email={email}
