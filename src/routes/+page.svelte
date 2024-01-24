@@ -18,6 +18,7 @@
 </script>
 
 <body class="bg-[#FCF6FF]">
+	
 	<Header />
 	<MainHero />
 	<div class="flex flex-col justify-center items-center">
